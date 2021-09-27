@@ -7,7 +7,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: gold;
+}
+.off {
+  color: #ccc;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  color: black;
+  margin: 10px;
+  padding: 2px;
+}
+
+.divWithScroll {
+  height: 400px;
+  overflow: scroll;
+}
+
+#reviewDiv {
+  height: 120px;
+}
+
+#reviews {
+  height: 130px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#input-form {
+  width: 100%;
+  height: 125px;
 }
